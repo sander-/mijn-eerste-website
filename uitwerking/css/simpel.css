@@ -1,0 +1,66 @@
+body {
+	font-family: sans-serif;
+}
+ul.menu {
+	background-color: black;
+	border-radius: 0.5em;
+	padding: 0.5em;
+}
+ul.menu li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+}
+ul.menu li a {
+	color: white;
+	text-decoration: none;
+}
+ul.menu li.actief {
+	color: yellow;
+}
+ul.menu li a:hover {
+	color: #99DDFF;
+	text-decoration: underline;
+}
+article {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	padding: 1em;
+}
+aside {
+	float: left;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFC0;
+	box-shadow: 10px 10px 5px gray;
+	color: #2F5670;
+}
+ul li {
+	list-style-type: square;
+}
+table {
+	background-color: silver;
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid white;
+	padding: 0.5em;
+	text-align: left;
+	vertical-align: top;
+}
+
+table.kruiswoord, .kruiswoord td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.kruiswoord td {
+	width: 3em;
+	height: 3em;
+	vertical-align: top;
+	background-color: white;
+}
+.kruiswoord .black {
+	background-color: black;
+}
